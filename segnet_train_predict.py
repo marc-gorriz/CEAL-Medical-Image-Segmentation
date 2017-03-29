@@ -34,7 +34,7 @@ def train():
     print('-' * 30)
     model = build_model()
     model.summary()
-    model_checkpoint = ModelCheckpoint('unet.hdf5', monitor='loss', save_best_only=True)
+    model_checkpoint = ModelCheckpoint('model.hdf5', monitor='loss', save_best_only=True)
 
     print('-' * 30)
     print('Fitting model...')
@@ -62,7 +62,7 @@ def predict():
     print('Loading saved weights...')
     print('-' * 30)
     model = build_model()
-    model.load_weights('unet1.hdf5')
+    model.load_weights('model.hdf5')
 
     print('-' * 30)
     print('Predicting masks on test data...')
