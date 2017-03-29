@@ -69,7 +69,7 @@ nb_unlabeled = X_train.shape[0] - nb_labeled
 
 nb_iterations = 1
 nb_annotations = 200
-initial_decay_rate = 0.2
+initial_decay_rate = 0.6
 decay_rate = 0.5
 thresh = None
 
@@ -122,17 +122,20 @@ for iteration in range(1, nb_iterations + 1):
     y_oracle_train = y_train[uncertain_samples]
     X_oracle_train = X_unlabeled_train[uncertain_samples]
     np.delete(X_unlabeled_train, uncertain_samples)
+    np.delete(en, uncertain_samples)
 
     # pseudo-labeling
     certain_samples, thresh = certain_set(en, thresh, initial_decay_rate, decay_rate)
+
+    #certain_samples, thresh = certain_set(en, thresh, 4)
 
     print("Thresh = " + str(thresh))
     print("Certain samples = " + str(len(certain_samples)))
 
     X_pseudo_train = X_unlabeled_train[certain_samples]
-    y_pseudo_train = predictions_max_class(certain_samples, predictions, nb_classes)
+    y_pseudo_train = predictions_max_class(predictions[certain_samples], nb_classes)
 
-    print("Pseudo_labeling error = "+str(pseudo_label_error(y_pseudo_train,y_train[certain_samples])))
+    print("Pseudo_labeling error = "+str(pseudo_label_error(y_pseudo_train,y_train[nb_labeled+certain_samples])))
 
     X_labeled_train_aux = np.concatenate((X_labeled_train, X_oracle_train, X_pseudo_train))
     y_labeled_train_aux = np.concatenate((y_labeled_train, y_oracle_train, y_pseudo_train))
