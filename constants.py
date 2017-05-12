@@ -14,6 +14,7 @@ nb_unlabeled = nb_train - nb_labeled
 
 # CEAL parameters
 uncertain_method = "variance"
+augmentation = True
 apply_edt = True
 nb_iterations = 3
 nb_annotations = 10
