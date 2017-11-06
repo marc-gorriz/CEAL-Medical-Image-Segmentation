@@ -12,6 +12,6 @@
 
 
 [MarcGorriz-photo]: 
-[XavierGiro-photo]: https://raw.githubusercontent.com/imatge-upc/saliency-2016-cvpr/master/authors/XavierGiro.jpg "Xavier Giro-i-Nieto"
+[XavierGiro-photo]: https://raw.githubusercontent.com/marc-gorriz/CEAL-Medical-Image-Segmentation/master/authors/XavierGiro.jpg
 [AxelCarlier-photo]:
 [EmmanuelFaure-photo]:
