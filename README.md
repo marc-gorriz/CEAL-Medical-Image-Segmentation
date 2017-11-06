@@ -57,6 +57,11 @@ to simulate the Active Learning problem with large amounts of unlabeled data at 
 ## Software frameworks: Keras
 The model is implemented in [Keras](https://github.com/fchollet/keras/tree/master/keras), which at its time is developed over [TensorFlow](https://www.tensorflow.org). 
 
+```
+pip install -r https://github.com/marc-gorriz/CEAL-Medical-Image-Segmentation/blob/master/requeriments.txt
+```
+
+
 ## Acknowledgements
 
 We would like to especially thank Albert Gil Moreno from our technical support team at the Image Processing Group at the UPC.
