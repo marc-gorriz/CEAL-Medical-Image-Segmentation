@@ -39,7 +39,7 @@ We propose a novel Active Learning framework capable to train effectively a conv
 
 ## Slides
 
-![slides-fig](http://www.google.es/)
+![slides-fig]
 
 
 * [[Slideshare slides]](https://es.slideshare.net/xavigiro/active-deep-learning-for-medical-imaging)
@@ -55,7 +55,7 @@ towards melanoma detection, splitting the training set into labeled and unlabele
 to simulate the Active Learning problem with large amounts of unlabeled data at the beginning.
 
 ## Software frameworks: Keras
-The model is implemented in [Keras](https://github.com/fchollet/keras/tree/master/keras), which at its time is developed over [TensorFlow](https://www.tensorflow.org).
+The model is implemented in [Keras](https://github.com/fchollet/keras/tree/master/keras), which at its time is developed over [TensorFlow](https://www.tensorflow.org). 
 
 ## Acknowledgements
 
