@@ -21,14 +21,14 @@ if initial_train:
     model_checkpoint = ModelCheckpoint(initial_weights_path, monitor='loss', save_best_only=True)
     
     if apply_augmentation:
-        for i in range(0, nb_initial_epochs):
+        for initial_epoch in range(0, nb_initial_epochs):
             
             history = model.fit_generator(
                 data_generator().flow(X_train[labeled_index], y_train[labeled_index], batch_size=32, shuffle=True),
                 steps_per_epoch=len(labeled_index), nb_epoch=1, verbose=1, callbacks=[model_checkpoint])
 
-            model.save(global_path + "models/init_model" + str(i) + ".h5")
-            log(history, i, log_file)
+            model.save(global_path + "models/initial_model" + str(i) + ".h5")
+            log(history, initial_epoch, log_file)
     else:
         history = model.fit(X_train[labeled_index], y_train[labeled_index], batch_size=32, nb_epoch=nb_initial_epochs,
                             verbose=1, shuffle=True, callbacks=[model_checkpoint])
