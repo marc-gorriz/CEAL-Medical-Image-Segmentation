@@ -42,7 +42,7 @@ We propose a novel Active Learning framework capable to train effectively a conv
 ![slides-fig]
 
 
-* [[Slideshare project slides]](https://es.slideshare.net/xavigiro/active-deep-learning-for-medical-imaging)
+* [[Slideshare slides]](https://es.slideshare.net/xavigiro/active-deep-learning-for-medical-imaging)
 
 [slides-fig]: https://raw.githubusercontent.com/marc-gorriz/CEAL-Medical-Image-Segmentation/master/fig/slides.png "Project slides"
 
