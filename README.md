@@ -29,7 +29,7 @@ A joint collaboration between:
 [gpi-web]: https://imatge.upc.edu/web/ 
 
 
-[logo-vortex]: https://raw.githubusercontent.com/imatge-upc/saliency-2016-cvpr/master/logos/insight.jpg "Insight Centre for Data Analytics"
+[logo-vortex]: https://raw.githubusercontent.com/marc-gorriz/CEAL-Medical-Image-Segmentation/master/logos/Vortex.jpg "VORTEX Team (IRIT)"
 [logo-enseeiht]: https://raw.githubusercontent.com/imatge-upc/saliency-2016-cvpr/master/logos/dcu.png "Dublin City University"
 [logo-upc]: https://raw.githubusercontent.com/imatge-upc/saliency-2016-cvpr/master/logos/upc.jpg "Universitat Politecnica de Catalunya"
 [logo-etsetb]: https://raw.githubusercontent.com/imatge-upc/saliency-2016-cvpr/master/logos/etsetb.png "ETSETB TelecomBCN"
