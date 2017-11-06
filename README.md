@@ -48,3 +48,9 @@ We propose a novel Active Learning framework capable to train effectively a conv
 
 ## Cost-Effective Active Learning methodology
 A Cost-Effective Active Learning (CEAL) algorithm is able to interactively query the human annotator or the own ConvNet model (automatic annotations from high confidence predictions) new labeled instances from a pool of unlabeled data. Candidates to be labeled are chosen by estimating their uncertainty based on the stability of the pixel-wise predictions when a dropout is applied on a deep neural network. We trained the U-Net architecture using the CEAL methodology for solving the melanoma segmentation problem, obtaining pretty good results considering the lack of labeled data.
+
+## Datasets
+As explained in our work, all the tests were done with the [ISIC 2017 Challenge dataset for Skin Lesion Analysis
+towards melanoma detection](https://challenge.kitware.com/#challenge/n/ISIC_2017%3A_Skin_Lesion_Analysis_Towards_Melanoma_Detection), splitting the training set into labeled and unlabeled amount of data
+to simulate the Active Learning problem with large amounts of unlabeled data at the beginning.
+
