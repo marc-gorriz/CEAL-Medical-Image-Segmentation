@@ -38,13 +38,10 @@ A joint collaboration between:
 We propose a novel Active Learning framework capable to train effectively a convolutional neural network for semantic segmentation of medical imaging, with a limited amount of training labeled data. Our contribution is a practical Cost-Effective Active Learning approach using Dropout at test time as Monte Carlo sampling to model the pixel-wise uncertainty and to analyze the image information to improve the training performance. 
 
 ## Slides
+<centrate>
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/cadu74MspLHLW5" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/xavigiro/active-deep-learning-for-medical-imaging" title="Active Deep Learning for Medical Imaging" target="_blank">Active Deep Learning for Medical Imaging</a> </strong> de <strong><a href="https://www.slideshare.net/xavigiro" target="_blank">Xavier Giro-i-Nieto</a></strong> </div>
+</centrate>
 
-![slides-fig]
-
-
-* [[Slideshare slides]](https://es.slideshare.net/xavigiro/active-deep-learning-for-medical-imaging)
-
-[slides-fig]: https://raw.githubusercontent.com/marc-gorriz/CEAL-Medical-Image-Segmentation/master/fig/slides.png "Project slides"
 
 ## Cost-Effective Active Learning methodology
 A Cost-Effective Active Learning (CEAL) algorithm is able to interactively query the human annotator or the own ConvNet model (automatic annotations from high confidence predictions) new labeled instances from a pool of unlabeled data. Candidates to be labeled are chosen by estimating their uncertainty based on the stability of the pixel-wise predictions when a dropout is applied on a deep neural network. We trained the U-Net architecture using the CEAL methodology for solving the melanoma segmentation problem, obtaining pretty good results considering the lack of labeled data.
