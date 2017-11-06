@@ -20,7 +20,7 @@ A joint collaboration between:
 
 | ![logo-vortex] | ![logo-enseeiht] | ![logo-gpi] |
 |:-:|:-:|:-:|
-| [VORTEX Group - IRIT][vortex-web] | [INP Toulouse - ENSEEIHT][enseeiht-web] | [UPC Image Processing Group][gpi-web] |
+| [IRIT Vortex Group][vortex-web] | [INP Toulouse - ENSEEIHT][enseeiht-web] | [UPC Image Processing Group][gpi-web] |
 
 [vortex-web]: https://www.irit.fr/-VORTEX-Team-?lang=fr/
 [enseeiht-web]: http://www.enseeiht.fr/fr/index.html/
