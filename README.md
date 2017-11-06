@@ -31,13 +31,20 @@ A joint collaboration between:
 
 [logo-vortex]: https://github.com/marc-gorriz/CEAL-Medical-Image-Segmentation/blob/master/logos/Vortex.png "VORTEX Team (IRIT)"
 [logo-enseeiht]: https://raw.githubusercontent.com/marc-gorriz/CEAL-Medical-Image-Segmentation/master/logos/enseeiht.png "Institut National polytechnique de Toulouse (ENSEEIHT)"
-[logo-upc]: https://raw.githubusercontent.com/imatge-upc/saliency-2016-cvpr/master/logos/upc.jpg "Universitat Politecnica de Catalunya"
-[logo-etsetb]: https://raw.githubusercontent.com/imatge-upc/saliency-2016-cvpr/master/logos/etsetb.png "ETSETB TelecomBCN"
-[logo-gpi]: https://raw.githubusercontent.com/imatge-upc/saliency-2016-cvpr/master/logos/gpi.png "UPC Image Processing Group"
+[logo-gpi]: https://raw.githubusercontent.com/marc-gorriz/CEAL-Medical-Image-Segmentation/master/logos/gpi.png "UPC GPI"
 
 ## Abstract
 
 We propose a novel Active Learning framework capable to train effectively a convolutional neural network for semantic segmentation of medical imaging, with a limited amount of training labeled data. Our contribution is a practical Cost-Effective Active Learning approach using Dropout at test time as Monte Carlo sampling to model the pixel-wise uncertainty and to analyze the image information to improve the training performance. 
+
+## Slides
+
+![slides-fig]
+
+
+* [[Slideshare project slides]](https://es.slideshare.net/xavigiro/active-deep-learning-for-medical-imaging)
+
+[slides-fig]: https://raw.githubusercontent.com/marc-gorriz/CEAL-Medical-Image-Segmentation/master/fig/slides.png "Project slides"
 
 ## Cost-Effective Active Learning methodology
 A Cost-Effective Active Learning (CEAL) algorithm is able to interactively query the human annotator or the own ConvNet model (automatic annotations from high confidence predictions) new labeled instances from a pool of unlabeled data. Candidates to be labeled are chosen by estimating their uncertainty based on the stability of the pixel-wise predictions when a dropout is applied on a deep neural network. We trained the U-Net architecture using the CEAL methodology for solving the melanoma segmentation problem, obtaining pretty good results considering the lack of labeled data.
