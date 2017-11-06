@@ -39,7 +39,7 @@ We propose a novel Active Learning framework capable to train effectively a conv
 
 ## Slides
 
-![slides-fig]
+![slides-fig](http://www.google.es/)
 
 
 * [[Slideshare slides]](https://es.slideshare.net/xavigiro/active-deep-learning-for-medical-imaging)
