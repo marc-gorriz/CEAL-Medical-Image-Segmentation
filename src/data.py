@@ -36,34 +36,20 @@ def create_train_data():
     imgs = np.ndarray((total, 1, image_rows, image_cols), dtype=np.uint8)
     imgs_mask = np.ndarray((total, 1, image_rows, image_cols), dtype=np.uint8)
 
-    i = 0
-    print('-' * 30)
-    print('Creating training images...')
-    print('-' * 30)
-
     for image_name in images:
         img = cv2.imread(os.path.join(data_path, image_name), cv2.IMREAD_GRAYSCALE)
         img = cv2.resize(img, (image_rows, image_cols), interpolation=cv2.INTER_CUBIC)
         img = np.array([img])
         imgs[i] = img
 
-        if i % 100 == 0:
-            print('Done: {0}/{1} images'.format(i, total * 2))
-        i += 1
-    i = 0
     for image_mask_name in masks:
         img_mask = cv2.imread(os.path.join(masks_path, image_mask_name), cv2.IMREAD_GRAYSCALE)
         img_mask = cv2.resize(img_mask, (image_rows, image_cols), interpolation=cv2.INTER_CUBIC)
         img_mask = np.array([img_mask])
         imgs_mask[i] = img_mask
 
-        if i % 100 == 0:
-            print('Done: {0}/{1} images'.format(i + total, total * 2))
-        i += 1
-
     np.save('imgs_train.npy', imgs)
     np.save('imgs_mask_train.npy', imgs_mask)
-    print('Saving to .npy files done.')
 
 
 def load_train_data():
