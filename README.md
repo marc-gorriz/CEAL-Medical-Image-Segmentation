@@ -50,7 +50,35 @@ We propose a novel Active Learning framework capable to train effectively a conv
 A Cost-Effective Active Learning (CEAL) algorithm is able to interactively query the human annotator or the own ConvNet model (automatic annotations from high confidence predictions) new labeled instances from a pool of unlabeled data. Candidates to be labeled are chosen by estimating their uncertainty based on the stability of the pixel-wise predictions when a dropout is applied on a deep neural network. We trained the U-Net architecture using the CEAL methodology for solving the melanoma segmentation problem, obtaining pretty good results considering the lack of labeled data.
 
 ## Datasets
-As explained in our work, all the tests were done with the [ISIC 2017 Challenge] dataset for Skin Lesion Analysis
-towards melanoma detection(https://challenge.kitware.com/#challenge/n/ISIC_2017%3A_Skin_Lesion_Analysis_Towards_Melanoma_Detection), splitting the training set into labeled and unlabeled amount of data
+As explained in our work, all the tests were done with the [ISIC 2017 Challenge](https://challenge.kitware.com/#challenge/n/ISIC_2017%3A_Skin_Lesion_Analysis_Towards_Melanoma_Detection) dataset for Skin Lesion Analysis
+towards melanoma detection, splitting the training set into labeled and unlabeled amount of data
 to simulate the Active Learning problem with large amounts of unlabeled data at the beginning.
+
+## Software frameworks: Keras
+The model is implemented in [Keras](https://github.com/fchollet/keras/tree/master/keras), which at its time is developed over [TensorFlow](https://www.tensorflow.org).
+
+## Acknowledgements
+
+We would like to especially thank Albert Gil Moreno from our technical support team at the Image Processing Group at the UPC.
+
+| ![AlbertGil-photo]  |
+|:-:|
+| [Albert Gil](AlbertGil-web)   |
+
+[AlbertGil-photo]: https://raw.githubusercontent.com/imatge-upc/saliency-2016-cvpr/master/authors/AlbertGil.jpg "Albert Gil"
+
+[AlbertGil-web]: https://imatge.upc.edu/web/people/albert-gil-moreno
+
+|   |   |
+|:--|:-:|
+|  We gratefully acknowledge the support of [NVIDIA Corporation](http://www.nvidia.com/content/global/global.php) with the donation of the GeoForce GTX [Titan X](http://www.geforce.com/hardware/desktop-gpus/geforce-gtx-titan-x) used in this work. |  ![logo-nvidia] |
+|  The Image ProcessingGroup at the UPC is a [SGR14 Consolidated Research Group](https://imatge.upc.edu/web/projects/sgr14-image-and-video-processing-group) recognized and sponsored by the Catalan Government (Generalitat de Catalunya) through its [AGAUR](http://agaur.gencat.cat/en/inici/index.html) office. |  ![logo-catalonia] |
+
+[logo-nvidia]: https://raw.githubusercontent.com/imatge-upc/saliency-2016-cvpr/master/logos/nvidia.jpg "Logo of NVidia"
+[logo-catalonia]: https://raw.githubusercontent.com/imatge-upc/saliency-2016-cvpr/master/logos/generalitat.jpg "Logo of Catalan government"
+
+## Contact
+
+If you have any general doubt about our work or code which may be of interest for other researchers, please use the [public issues section](https://github.com/marc-gorriz/CEAL-Medical-Image-Segmentation/issues) on this github repo. Alternatively, drop us an e-mail at <mailto:xavier.giro@upc.edu>.
+
 
