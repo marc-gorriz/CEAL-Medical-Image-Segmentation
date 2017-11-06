@@ -22,9 +22,9 @@ A joint collaboration between:
 |:-:|:-:|:-:|
 | [VORTEX Team (IRIT)][insight-web] | [Institut National polytechnique de Toulouse (ENSEEIHT)][dcu-web] | [UPC Image Processing Group][gpi-web] |
 
-[vortex-web]: https://www.irit.fr/-VORTEX-Team-?lang=fr
-[enseeiht-web]: http://www.enseeiht.fr/fr/index.html
-[upc-web]: http://www.upc.edu/?set_language=en
+[vortex-web]: https://www.irit.fr/-VORTEX-Team-?lang=fr/
+[enseeiht-web]: http://www.enseeiht.fr/fr/index.html/
+[upc-web]: http://www.upc.edu/?set_language=en/
 [etsetb-web]: https://www.etsetb.upc.edu/en/ 
 [gpi-web]: https://imatge.upc.edu/web/ 
 
