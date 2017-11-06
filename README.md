@@ -15,3 +15,22 @@
 [XavierGiro-photo]: https://raw.githubusercontent.com/marc-gorriz/CEAL-Medical-Image-Segmentation/master/authors/XavierGiro.jpg
 [AxelCarlier-photo]: https://raw.githubusercontent.com/marc-gorriz/CEAL-Medical-Image-Segmentation/master/authors/AxelCarlier.jpg
 [EmmanuelFaure-photo]: https://raw.githubusercontent.com/marc-gorriz/CEAL-Medical-Image-Segmentation/master/authors/EmmanuelFaure.png
+
+A joint collaboration between:
+
+| ![logo-vortex] | ![logo-enseeiht] | ![logo-gpi] |
+|:-:|:-:|:-:|
+| [VORTEX Team (IRIT)][insight-web] | [Institut National polytechnique de Toulouse (ENSEEIHT)][dcu-web] | [UPC Image Processing Group][gpi-web] |
+
+[vortex-web]: https://www.irit.fr/-VORTEX-Team-?lang=fr
+[enseeiht-web]: http://www.enseeiht.fr/fr/index.html
+[upc-web]: http://www.upc.edu/?set_language=en
+[etsetb-web]: https://www.etsetb.upc.edu/en/ 
+[gpi-web]: https://imatge.upc.edu/web/ 
+
+
+[logo-vortex]: https://raw.githubusercontent.com/imatge-upc/saliency-2016-cvpr/master/logos/insight.jpg "Insight Centre for Data Analytics"
+[logo-enseeiht]: https://raw.githubusercontent.com/imatge-upc/saliency-2016-cvpr/master/logos/dcu.png "Dublin City University"
+[logo-upc]: https://raw.githubusercontent.com/imatge-upc/saliency-2016-cvpr/master/logos/upc.jpg "Universitat Politecnica de Catalunya"
+[logo-etsetb]: https://raw.githubusercontent.com/imatge-upc/saliency-2016-cvpr/master/logos/etsetb.png "ETSETB TelecomBCN"
+[logo-gpi]: https://raw.githubusercontent.com/imatge-upc/saliency-2016-cvpr/master/logos/gpi.png "UPC Image Processing Group"
