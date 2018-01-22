@@ -23,6 +23,20 @@ def dice_coef(y_true, y_pred):
 def dice_coef_loss(y_true, y_pred):
     return -dice_coef(y_true, y_pred)
 
+#Override Dropout. Make it able at test time.
+def call(self, inputs, training=None):
+    if 0. < self.rate < 1.:
+        noise_shape = self._get_noise_shape(inputs)
+        def dropped_inputs():
+            return K.dropout(inputs, self.rate, noise_shape,
+                             seed=self.seed)
+        if (training):
+            return K.in_train_phase(dropped_inputs, inputs, training=training)
+        else:
+            return K.in_test_phase(dropped_inputs, inputs, training=None)
+    return inputs
+
+Dropout.call = call
 
 def get_unet(dropout):
     inputs = Input((1, img_rows, img_cols))
