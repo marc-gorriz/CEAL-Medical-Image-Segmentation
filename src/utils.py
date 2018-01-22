@@ -61,6 +61,7 @@ def get_thirt_index(uncertain, nb3, iteration):
   index = interval(uncertain, histo[1][np.argmax(histo[0])+6], histo[1][len(histo[0])-33])
   np.random.shuffle(index)
   return index[0:nb3]
+
 """
 def get_first_index(uncertain, nb1):
   histo = np.histogram(uncertain, 80)
@@ -68,6 +69,7 @@ def get_first_index(uncertain, nb1):
   np.random.shuffle(oracle)
   return oracle[0:nb1]
 """
+
 def get_first_index(rank, nb1):
   return rank[0:nb1]
 """
