@@ -23,6 +23,7 @@ nb_step_predictions = 20
 nb_no_detections = 10
 nb_random = 15
 nb_most_uncertain = 10
+most_uncertain_rate = 5
 
 pseudo_epoch = 5
 nb_pseudo_initial = 20
