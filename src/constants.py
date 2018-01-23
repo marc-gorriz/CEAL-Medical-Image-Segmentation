@@ -11,24 +11,20 @@ nb_classes = 10
 nb_total = 2000
 nb_train = 1600
 
-#nb_labeled = 600
-nb_labeled = nb_train
+nb_labeled = 600
 nb_unlabeled = nb_train - nb_labeled
 
 # CEAL parameters
 apply_edt = True
 nb_iterations = 10
-nb11 = 10
-nb12 = 5
-nb2 = 10
-nb31 = 10
-nb32 = 15
-rate = 10
+
 nb_step_predictions = 20
+
+nb_no_detections = 10
+nb_random = 15
+nb_most_uncertain = 10
+
 pseudo_epoch = 5
-first_epoch = 5
-second_epoch = 0
-thirt_epoch = 0
 nb_pseudo_initial = 20
 pseudo_rate = 20
 
