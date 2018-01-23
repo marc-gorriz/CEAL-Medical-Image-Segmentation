@@ -41,7 +41,7 @@ We propose a novel Active Learning framework capable to train effectively a conv
 
 ML4H: Machine Learning for Health Workshop at NIPS 2017, Long Beach, CA, USA, In Press. Find the pre-print version of our work on [arXiv](https://arxiv.org/abs/1711.09168). 
 
-![Image of the paper](https://github.com/marc-gorriz/CEAL-Medical-Image-Segmentation/blob/master/logos/ML4H-NIPS-2017-publication.png)
+![Image of the paper](https://raw.githubusercontent.com/marc-gorriz/CEAL-Medical-Image-Segmentation/master/logos/ML4H-NIPS-2017-publication.png)
 
 Please cite with the following Bibtex code:
 
