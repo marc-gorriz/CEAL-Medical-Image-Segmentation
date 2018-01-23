@@ -1,16 +1,14 @@
 # PATH definition
-global_path = ""
-initial_weights_path = "models/classical.hdf5"
-final_weights_path = "models/classicalo.hdf5"
+global_path = "[global_path_name]"
+initial_weights_path = "models/[initial_weights_name].hdf5"
+final_weights_path = "models/[output_weights_name].hdf5"
 
 # Data definition
 img_rows = 64 * 3
 img_cols = 80 * 3
 
-nb_classes = 10
 nb_total = 2000
 nb_train = 1600
-
 nb_labeled = 600
 nb_unlabeled = nb_train - nb_labeled
 
