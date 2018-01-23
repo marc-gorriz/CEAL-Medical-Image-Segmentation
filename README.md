@@ -37,6 +37,37 @@ A joint collaboration between:
 
 We propose a novel Active Learning framework capable to train effectively a convolutional neural network for semantic segmentation of medical imaging, with a limited amount of training labeled data. Our contribution is a practical Cost-Effective Active Learning approach using Dropout at test time as Monte Carlo sampling to model the pixel-wise uncertainty and to analyze the image information to improve the training performance. 
 
+## Publication
+
+Find the pre-print version of our work on [arXiv](https://arxiv.org/abs/1711.09168). ML4H: Machine Learning for Health Workshop at NIPS 2017, Long Beach, CA, USA, In Press.
+
+![Image of the paper](https://github.com/massens/saliency-360salient-2017/raw/master/figs/paper.png)
+
+Please cite with the following Bibtex code:
+
+```
+@article{DBLP:journals/corr/abs-1711-09168,
+  author    = {Marc Gorriz and
+               Axel Carlier and
+               Emmanuel Faure and
+               Xavier {Gir{\'{o}} i Nieto}},
+  title     = {Cost-Effective Active Learning for Melanoma Segmentation},
+  journal   = {CoRR},
+  volume    = {abs/1711.09168},
+  year      = {2017},
+  url       = {http://arxiv.org/abs/1711.09168},
+  archivePrefix = {arXiv},
+  eprint    = {1711.09168},
+  timestamp = {Mon, 04 Dec 2017 18:34:59 +0100},
+  biburl    = {http://dblp.org/rec/bib/journals/corr/abs-1711-09168},
+  bibsource = {dblp computer science bibliography, http://dblp.org}
+}
+```
+
+You may also want to refer to our publication with the more human-friendly Chicago style:
+
+*Marc Assens, Kevin McGuinness, Xavier Giro-i-Nieto and Noel E. O’Connor. “SaltiNet: Scan-Path Prediction on 360 Degree Images Using Saliency Volumes.” ICCV Workshop on Egocentric Perception, Interaction and Computing. 2017.*
+
 ## Slides
 <centrate>
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/cadu74MspLHLW5" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/xavigiro/active-deep-learning-for-medical-imaging" title="Active Deep Learning for Medical Imaging" target="_blank">Active Deep Learning for Medical Imaging</a> </strong> de <strong><a href="https://www.slideshare.net/xavigiro" target="_blank">Xavier Giro-i-Nieto</a></strong> </div>
