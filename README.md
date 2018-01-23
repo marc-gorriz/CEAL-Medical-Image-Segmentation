@@ -39,7 +39,7 @@ We propose a novel Active Learning framework capable to train effectively a conv
 
 ## Publication
 
-Find the pre-print version of our work on [arXiv](https://arxiv.org/abs/1711.09168). ML4H: Machine Learning for Health Workshop at NIPS 2017, Long Beach, CA, USA, In Press.
+ML4H: Machine Learning for Health Workshop at NIPS 2017, Long Beach, CA, USA, In Press. Find the pre-print version of our work on [arXiv](https://arxiv.org/abs/1711.09168). 
 
 ![Image of the paper](https://github.com/massens/saliency-360salient-2017/raw/master/figs/paper.png)
 
