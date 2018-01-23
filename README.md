@@ -64,10 +64,6 @@ Please cite with the following Bibtex code:
 }
 ```
 
-You may also want to refer to our publication with the more human-friendly Chicago style:
-
-*Marc Assens, Kevin McGuinness, Xavier Giro-i-Nieto and Noel E. O’Connor. “SaltiNet: Scan-Path Prediction on 360 Degree Images Using Saliency Volumes.” ICCV Workshop on Egocentric Perception, Interaction and Computing. 2017.*
-
 ## Slides
 <centrate>
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/cadu74MspLHLW5" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/xavigiro/active-deep-learning-for-medical-imaging" title="Active Deep Learning for Medical Imaging" target="_blank">Active Deep Learning for Medical Imaging</a> </strong> de <strong><a href="https://www.slideshare.net/xavigiro" target="_blank">Xavier Giro-i-Nieto</a></strong> </div>
