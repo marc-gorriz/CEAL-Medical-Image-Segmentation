@@ -3,7 +3,7 @@ joblib==0.9.4
 jsonschema==2.6.0
 Keras==1.2.2
 matplotlib==1.5.1
-numpy==1.12.1
+numpy==1.22.0
 opencv-python==3.2.0.7
 Pillow==3.1.2
 scikit-image==0.10.1
